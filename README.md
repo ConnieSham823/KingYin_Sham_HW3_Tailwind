@@ -1,7 +1,9 @@
 # KingYin_Sham_HW3_Tailwind
 This repo is for assignment 3 - CSS Frameworks / Flexbox Page
-Brand Name: Orbitz
+
 ![Orbitz](images/Orbitz-HeroImage_700.png)
+
+Brand Name: Orbitz
 Page: Maple Flavor
 By: King Yin Sham (Connie)
 

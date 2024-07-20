@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  </style>
+  <title>Orbitz Maple Flavors</title>
+</head>
+
+<body class="bg-[#efe3bb]">
+    <h1 class="hidden">Orbitz Maple Tea</h1>  
+    <!-- Main Nav -->
+    <div id="sticky-nav-con" class="relative">
+        <header class="grid grid-cols-4 gap-2 xl:grid xl:grid-cols-12 xl:gap-4 ">
+            <img src="images/header-wood-700.png" class="absolute col-span-full mt-0 mb-0 -z-50 min-w-[700px] xl:hidden">
+            <img src="images/Header-wood-1920.png" class="xl:absolute xl:col-span-full xl:mb-0 -z-50 xl:max-h-[300px] hidden xl:block">
+            
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                    <div class="relative ml-5 mb-0 group">
+                        <div class="xl:hidden">
+                            <label class="col-start-1 col-end-2">
+                                <img src="images/Humburger-icon.png" alt="hamburger menu" id="dropdown-toggle" 
+                                        class="w-10 cursor-pointer mt-6 duration-2000 transform transition-transform group-hover:rotate-90">
+                            </label>
+                        </div>
+                        <div id="burger-con" class="dropdown-menu absolute left-0 w-48 bg-white/90 rounded-md shadow-lg 
+                            z-10 hidden opacity-0 group-hover:block group-hover:opacity-100">
+                            <ul class="py-2">
+                                <li><a href="index.html" class="block px-4 py-2 hover:bg-[#767070]/50 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Home</a></li>
+                                <li><a href="about-us.html" class="block px-4 py-2 hover:bg-[#767070]/50 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Evolution</a></li>
+                                <li><a href="product.html" class="block px-4 py-2 hover:bg-[#767070]/50 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Maple Flavors</a></li>
+                                <li><a href="contact.html" class="block px-4 py-2 hover:bg-[#767070]/50 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+    
+                <div id="logo" class="col-start-2 col-end-4 xl:col-start-1 xl:col-end-4 flex justify-center xl:flex xl:justify-center">
+                    <img src="images/logo-ori.png" alt="Orbitz logo" class="pt-3 pb-3 max-h-[100px] xl:py-4 xl:max-h-[130px]">
+                </div>
+
+                <div id="burger-con" class="hidden xl:inline xl:col-start-4 xl:col-end-10">
+                    <ul class="flex space-x-4 py-12">
+                        <li><a href="index.html" class="text-2xl px-4 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Home</a></li>
+                        <li><a href="about-us.html" class="text-2xl px-4 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Evolution</a></li>
+                        <li><a href="product.html" class="text-2xl px-4 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Maple Flavors</a></li>
+                        <li><a href="contact.html" class="text-2xl px-4 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div id="enjoy-now" class="col-start-4 col-end-5 pl-2 pr-3 xl:col-start-11 xl:col-end-13">
+                    <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[90px]">
+                </div>
+        </header>
+    </div>
+
+    <main>
+        <section id="product-hero" class="grid grid-cols-4 gap-2 mt-0 mb-0 xl:grid-cols-12 xl:gap-4">
+            <div class="col-span-full justify-center">
+                <h2 class="hidden">Orbitz Maple Product Hero</h2>
+                    <img src="images/Orbitz-HeroImage_700.png" alt="Orbitz Product Hero Image" class="h-auto xl:hidden">
+                    <img src="images/Orbitz-HeroImage-1920.png" alt="Orbitz Product Hero Image" class="hidden xl:block">
+            </div>
+
+            <div class="col-span-full m-3 text-center xl:col-start-3 xl:col-end-11">
+                <h2 class="text-2xl text-[#433415] font-bold mb-2 xl:text-3xl">Our Products</h2>
+                    <p class="text-lg leading-normal tracking-tight">The Orbitz is not just a tribute to the classic but an exploration of innovation and cultural fusion. 
+                    We hope you find familiar flavors in the new Orbitz, along with new surprises.</p>
+            </div>
+        </section>
+        <!-- Products -->
+        <section id="pdt-mango" class="mx-5 mt-5 border border-[#E11F26] rounded-3xl p-6 xl:mx-12 xl:my-8 xl:max-w-screen-xl xl:px-12 xl:py-12 xl:grid xl:grid-cols-12 xl:gap-6 2xl:max-w-screen-2xl 2xl:mx-auto">
+            <div class="col-span-full xl:flex xl:items-start">
+                <div class="xl:col-start-3 xl:col-end-6 xl:flex-shrink-0">
+                    <img src="images/Flavor-mango-600.png" alt="Orbitz Mango Tea" class="h-auto xl:max-h-[300px]">
+                </div>
+                <div class="xl:col-start-6 xl:col-end-11 xl:pl-6">
+                    <h3 class="text-xl xl:text-2xl text-[#ffa500] font-semibold mb-2 text-center xl:text-left mt-2">Mango Maple Tea</h3>
+                    <p class="mx-5 mt-2 tracking-tight text-justify xl:mx-0 xl:text-lg">
+                        combines the tropical sweetness of mango and lychee with the earthy
+                        richness of maple syrup, topped with delightful textures of chewy bubble tea pearls,
+                        tender coconut jelly, and herbal grass jelly. <br> <span class="hidden xl:block xl:mt-3"> Mango Maple Tea offers a refreshing taste while being mindful of your health, with its reduced sugar content enhancing
+                            the natural flavors of the fruit and maple syrup. Enjoy a guilt-free indulgence that supports your well-being
+                            without compromising on the delicious, tropical experience.</span>
+                    </p>
+                </div>
+                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
+                    <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
+                </div>
+            </div>
+        </section>
+
+        <section id="pdt-lychee" class="mx-5 mt-5 border border-[#E11F26] rounded-3xl p-6 xl:mx-12 xl:my-8 xl:max-w-screen-xl xl:px-12 xl:py-12 xl:grid xl:grid-cols-12 xl:gap-6 2xl:max-w-screen-2xl 2xl:mx-auto">
+            <div class="col-span-full xl:flex xl:items-start">
+                <div class="xl:col-start-3 xl:col-end-6 xl:flex-shrink-0">
+                    <img src="images/Flavor-lychee-600.png" alt="Orbitz Lychee Tea" class="h-auto xl:max-h-[300px]">
+                </div>
+                <div class="xl:col-start-6 xl:col-end-11 xl:pl-6">
+                    <h3 class="text-xl xl:text-2xl text-[#e26260] font-semibold mb-2 text-center xl:text-left mt-2">Lychee Maple Tea</h3>
+                    <p class="mx-5 mt-2 tracking-tight text-justify xl:mx-0 xl:text-lg">
+                        blends the exotic, floral sweetness of lychee with the warm, earthy richness of maple syrup, enhanced
+                        by the delightful textures of chewy bubble tea pearls, tender coconut jelly, and herbal grass jelly.
+                        <br> <span class="hidden xl:block xl:mt-3"> This delectable blend not only satisfies your taste buds but also offers a refreshing
+                        alternative with lower sugar content, making it a healthier choice. Each sip is a harmonious fusion of vibrant lychee and
+                        smooth maple, providing a unique and satisfying treat that's both indulgent and nourishing.</span>
+                    </p>
+                </div>
+                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
+                    <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
+                </div>
+            </div>
+        </section>
+
+        <section id="pdt-peach" class="mx-5 mt-5 border border-[#E11F26] rounded-3xl p-6 xl:mx-12 xl:my-8 xl:max-w-screen-xl xl:px-12 xl:py-12 xl:grid xl:grid-cols-12 xl:gap-6 2xl:max-w-screen-2xl 2xl:mx-auto">
+            <div class="col-span-full xl:flex xl:items-start">
+                <div class="xl:col-start-3 xl:col-end-6 xl:flex-shrink-0">
+                    <img src="images/Flavor-peach-600.png" alt="Orbitz Peach Tea" class="h-auto xl:max-h-[300px]">
+                </div>
+                <div class="xl:col-start-6 xl:col-end-11 xl:pl-6">
+                    <h3 class="text-xl xl:text-2xl text-[#ff896c] font-semibold mb-2 text-center xl:text-left mt-2">Peach Maple Tea</h3>
+                    <p class="mx-5 mt-2 tracking-tight text-justify xl:mx-0 xl:text-lg">
+                        blends the juicy, sun-kissed flavor of ripe peaches with the warm, earthy richness of maple syrup, enhanced
+                        by the delightful textures of chewy bubble tea pearls, tender coconut jelly, and herbal grass jelly.
+                        <br> <span class="hidden xl:block xl:mt-3"> This delightful blend not only tantalizes your taste buds 
+                            but also serves as a refreshing choice with reduced sugar content, promoting a healthier lifestyle. 
+                            Every sip is a perfect balance of luscious peach and rich maple, delivering a unique and gratifying 
+                            experience that is both indulgent and wholesome.</span>
+                    </p>
+                </div>
+                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40">
+                    <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+</body>

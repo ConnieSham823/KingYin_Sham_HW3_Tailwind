@@ -18,10 +18,10 @@
     <!-- Main Nav -->
     <div id="sticky-nav-con" class="relative">
         <header class="grid grid-cols-4 gap-2 xl:grid xl:grid-cols-12 xl:gap-4 ">
-            <img src="images/header-wood-700.png" class="absolute col-span-full mt-0 mb-0 -z-50 min-w-[700px] xl:hidden">
-            <img src="images/Header-wood-1920.png" class="xl:absolute xl:col-span-full xl:mb-0 -z-50 xl:max-h-[300px] hidden xl:block">
+            <img src="images/header-wood-700.png" class="absolute col-span-full mt-0 mb-0 -z-50 min-w-[700px] xl:hidden" alt="Orbitz Header">
+            <img src="images/Header-wood-1920.png" class="xl:absolute xl:col-span-full xl:mb-0 -z-50 xl:max-h-[300px] hidden xl:block" alt="Orbitz Header">
             
-            <nav id="main-nav">
+            <nav id="main.nav">
                 <h2 class="hidden">Main Navigation</h2>
                     <div class="relative ml-5 mb-0 group">
                         <div class="xl:hidden">
@@ -30,7 +30,7 @@
                                         class="w-10 cursor-pointer mt-6 duration-2000 transform transition-transform group-hover:rotate-90">
                             </label>
                         </div>
-                        <div id="burger-con" class="dropdown-menu absolute left-0 w-48 bg-white/90 rounded-md shadow-lg 
+                        <div id="dropdown-menu" class="absolute left-0 w-48 bg-white/90 rounded-md shadow-lg 
                             z-10 hidden opacity-0 group-hover:block group-hover:opacity-100">
                             <ul class="py-2">
                                 <li><a href="index.html" class="block px-4 py-2 hover:bg-[#767070]/50 hover:font-semibold text-[#433415] hover:underline hover:decoration-solid hover:text-[#E11F26]">Home</a></li>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
     
-                <div id="enjoy-now" class="col-start-4 col-end-5 pl-2 pr-3 xl:col-start-11 xl:col-end-13">
+                <div id="enjoy-now-1" class="col-start-4 col-end-5 pl-2 pr-3 xl:col-start-11 xl:col-end-13">
                     <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[90px]">
                 </div>
         </header>
@@ -91,7 +91,7 @@
                             without compromising on the delicious, tropical experience.</span>
                     </p>
                 </div>
-                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
+                <div id="enjoy-now-mango" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
                     <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
                 </div>
             </div>
@@ -112,7 +112,7 @@
                         smooth maple, providing a unique and satisfying treat that's both indulgent and nourishing.</span>
                     </p>
                 </div>
-                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
+                <div id="enjoy-now-lychee" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40 xl:pr-200">
                     <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
                 </div>
             </div>
@@ -134,13 +134,29 @@
                             experience that is both indulgent and wholesome.</span>
                     </p>
                 </div>
-                <div id="enjoy-now" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40">
+                <div id="enjoy-now-peach" class="pl-2 pr-3 hidden xl:block xl:relative xl:pt-40">
                     <img src="images/Enjoy-now-icon.png" alt="Enjoy Now" class="pt-3 pb-3 cursor-pointer duration-500 hover:rotate-45 w-20 h-50 xl:min-w-[120px]">
                 </div>
             </div>
         </section>
 
         <!-- Flavors -->
+        <section id="flavor-hero" class="grid grid-cols-4 gap-2 mt-0 mb-0 xl:grid-cols-12 xl:gap-4">
+            <div class="col-span-full xl:col-span-full justify-center mt-8">
+                <h2 class="hidden">Orbitz Maple Flavor</h2>
+                <img src="images/Orbitz-Flavor_700.png" alt="Orbitz Flavor Image" class="h-auto xl:hidden">
+                <img src="images/Orbitz-Flavor_1920.png" alt="Orbitz Flavor Image" class="hidden xl:block">
+            </div>
+
+            <div class="col-span-full m-3 text-center xl:col-start-3 xl:col-end-11">
+                <h2 class="text-2xl text-[#433415] font-bold mb-2 xl:text-3xl">Our Flavors</h2>
+                    <p class="text-lg leading-normal tracking-tight">Orbitz cultivates a distinctive brand identity by blending the appeal of 
+                        Canadian flavors with the charm of Asian tastes, creating a uniquely delightful experience. 
+                        Orbitz promises a refreshing and health-conscious 
+                        indulgence that stands out in the market.</p>
+            </div>
+        </section>
+
         <section id="icons-container" class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             <div class="flex justify-center relative mb-4 mt-4">
                 <h3 class="hidden">Mango</h3>
@@ -188,8 +204,8 @@
 
     <!-- Footer -->
     <footer id="footer-hero" class="grid grid-cols-4 gap-2 xl:grid-cols-12 xl:gap-4">
-            <img src="images/wood-footer-700.png" class="absolute mt-0 mb-0 -z-50 h-auto xl:hidden">
-            <img src="images/wood-footer-1920.png" class="absolute mt-0 mb-0 -z-50 h-auto hidden xl:block">
+            <img src="images/wood-footer-700.png" class="absolute mt-0 mb-0 -z-50 h-auto xl:hidden" alt="Orbitz Footer Image">
+            <img src="images/wood-footer-1920.png" class="absolute mt-0 mb-0 -z-50 h-auto hidden xl:block" alt="Orbitz Footer Image">
         <h2 class="hidden">Footer Logo</h2>
             <div id="footer-logo" class="col-span-full flex justify-center mt-10">
                 <img src="images/logo-ori.png" alt="Orbitz logo" class="max-w-48">
@@ -200,8 +216,8 @@
                 <nav id="footer-nav">
                     <ul class="flex flex-col justify-center items-center mb-3 xl:flex-row">
                         <li class="block px-5"><a href="index.html" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Home</a></li>
-                        <li class="block px-5"><a href="#" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Evolution</a></li>
-                        <li class="block px-5"><a href="#" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Maple flavors</a></li>
+                        <li class="block px-5"><a href="about-us.html" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Evolution</a></li>
+                        <li class="block px-5"><a href="product.html" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Maple flavors</a></li>
                         <li class="block px-5"><a href="contact.html" class="block xl:text-2xl px-1 py-1 hover:text-[#E11F26] hover:font-semibold text-[#433415] hover:underline hover:decoration-solid">Contact Us</a></li>
                     </ul>
                 </nav>
